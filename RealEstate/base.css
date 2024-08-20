@@ -1,0 +1,27 @@
+/*Global*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+p{
+    line-height: 2;
+}
+a{
+
+    color: white ;
+    text-decoration: none ;
+}
+header.main-header{
+    background-image: url(./file/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    height: 400px;
+}
