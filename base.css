@@ -1,0 +1,171 @@
+/*Global*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+p{
+    line-height: 2;
+}
+a{
+
+    color: white ;
+    text-decoration: none ;
+}
+img{
+    max-width: 100%;
+}
+/*Utileries*/
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: block;
+    background-color: orange;
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: rgb(98, 65, 3);
+    color: white;
+}
+.more-about-container{
+    display: flex;
+    flex-direction: row;
+}
+.more-about-item{
+    margin-right: 20px;
+}
+
+/*houses*/
+.houses-item{
+    background-color: lightgray;
+    margin-left: 10px;
+}
+.houses-item-text{
+    padding: 30px;
+}
+
+ul li{
+    list-style: none;
+}
+.houses-item-text .price{
+    color:green;
+    font-weight: 700;
+    font-size: 20px;
+}
+.houses-item-text .price{
+    color:green;
+    font-weight: 700;
+    font-size: 20px;
+}
+header.main-header{
+    background-image: url(./file/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    height: 400px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 
+.contac-sub{
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-details{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form-container{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+fieldset{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+legend{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.form-control{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-control input
+.form-control textarea {
+    width: 85%;
+    padding: 5px;
+    border: none;
+}
+
+.form-control label{
+    width: 15%;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    height: 200px;
+    margin-top: 50px;
+}
+.text-b{
+    font-weight: bold;
+}
+.text-privacy{
+    font-weight: bold;
+    text-decoration: underline;
+    border-left: 3px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.copy-text {
+    display:flex;
+}
+.icons{
+    display:flex;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 16px;
+} */
