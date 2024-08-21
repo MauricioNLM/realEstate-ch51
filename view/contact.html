@@ -8,17 +8,13 @@
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<header>
+<header class="contact-header">
     <h1>RealEstate</h1>
-    <!-- <section> -->
-
-    <nav class="menu-bar container">
+    <nav class="menu-bar">
         <a href="about.html">Abut</a>
         <a href="blog.html">Blog</a>
         <a href="contact.hyml">Contact</a>
     </nav>
-    <p>We sell luxury house, condominius, and penthouse</p>
-    <!-- </section> -->
 </header>
 
 <body>
@@ -41,20 +37,57 @@
                     Personal Information
                 </legend>
                 <div class="form-control">
-                    <labe>Name: </labe>
+                    <label>Name:</label>
                     <input type="text">
                 </div>
                 <div class="form-control">
-                    <labe>Email: </labe>
+                    <label>Email:</label>
                     <input type="email">
                 </div>
                 <div class="form-control">
-                    <labe>Phone:</labe>
+                    <label>Phone:</label>
                     <input type="tel">
                 </div>
                 <div class="form-control">
-                    <labe>Message</labe>
+                    <label>Message</label>
                     <textarea></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Product Information
+                </legend>
+                <div class="form-control">
+                    <label>Type</label>
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label>Number:</label>
+                    <input type="number">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <div class="form-control contact-option">
+                    <label>Email:</label>
+                    <input type="radio">
+                    <label>Phone:</label>
+                    <input type="radio">
+                </div>
+                <div class="form-control contact-option">
+                    <label>Date:</label>
+                    <input type="date">
+                    <label>Hour:</label>
+                    <input type="time">
+
                 </div>
             </fieldset>
         </div>

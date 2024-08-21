@@ -79,7 +79,15 @@ header.main-header{
     text-align: center;
     height: 400px;
 }
+header.contact-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orange;    
+    padding: 50px;
+    height: 300px;
 
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -92,7 +100,7 @@ li{
     flex-direction: row;
     justify-content: space-between;
 }
-/* 
+
 .contac-sub{
     font-weight: bold;
     text-align: center;
@@ -113,6 +121,7 @@ fieldset{
     padding: 20px;
     border: 1px solid gray;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 legend{
     font-size: 14px;
@@ -123,16 +132,28 @@ legend{
     margin-bottom: 20px;
 }
 
-.form-control input
-.form-control textarea {
+.form-control label{
+    width: 15%;
+}
+
+.form-control input{
     width: 85%;
     padding: 5px;
     border: none;
 }
 
-.form-control label{
-    width: 15%;
+.form-control textarea{
+    width: 85%;
+    padding: 5px;
+    border: none;
 }
+
+.form-control select{
+    width: 85%;
+    padding: 5px;
+    border: none;
+}
+
 
 .footer-contact{
     display: flex;
@@ -168,4 +189,23 @@ legend{
     padding: 10px;
     border-radius: 50%;
     width: 16px;
-} */
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.menu-bar a{
+    color: black;
+    font-size: x-large;
+}
+
+
+.contact-option{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
