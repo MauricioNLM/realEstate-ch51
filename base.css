@@ -209,3 +209,85 @@ nav {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/*Blog*/
+.container-blog{
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+    padding: 5px;
+}
+
+.blog-body{
+    background-image: url('./file/img/announcement5.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+header.blog-header{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    background-color: lightblue;
+    padding-top: 10px;
+}
+
+.location-label{
+    margin-left: 75%;
+}
+
+
+.location-label label{
+    display: flex;
+    justify-items: end;
+    color: gray;
+    size: 10px;
+}
+
+.comment-content{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding: 2%;
+    border: 2px solid gray;
+    border-radius: 3%;
+    margin-left: 8%;
+}
+
+.comment-content textarea{
+    margin-bottom: -30%;
+}
+
+.comment-content img{
+    max-width: 80px;
+}
+
+/*About*/
+header.about-header{
+    background-color: brown;
+}
+
+main.container-about{
+    padding: 5%;
+    background-image: url(./file/img/announcement3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* color:white;
+    text-align: center;
+    height: 400px; */
+}
+
+.conten-history{
+    background-color: white;
+    margin: 5px;
+    padding: 2%;
+}
+
+.item-history img{
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.item-history{
+    display: flex;
+}
